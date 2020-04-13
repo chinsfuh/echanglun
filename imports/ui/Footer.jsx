@@ -18,13 +18,13 @@ const Footer = () => {
               e-Changlun
             </h5>
             <p>
-              e-Changlun is a business platform easier for customer to search expected result such as services available locally in Changlun.
+            e-Changlun adalah platform perniagaan yang lebih mudah bagi pelanggan untuk mencari hasil yang diharapkan seperti perkhidmatan yang tersedia di Changlun.
             </p>
           </MDBCol>
           <hr className="clearfix w-100 d-md-none" />
           <MDBCol md="2">
             <h5 className="text-uppercase mb-4 mt-3 font-weight-bold">
-            <a href="#!">Services</a>
+            <a href="#!">Servis</a>
             </h5>
             {/*<ul className="list-unstyled">
               <li>
@@ -87,11 +87,11 @@ const Footer = () => {
       <div className="text-center py-3">
         <ul className="list-unstyled list-inline mb-0">
           <li className="list-inline-item">
-            <h5 className="mb-1">Want to become as merchant?</h5>
+            <h5 className="mb-1">Ingin menyertai sebagai merchant?</h5>
           </li>
           <li className="list-inline-item">
             <a href="#!" className="btn btn-danger btn-rounded">
-              Sign up now!
+              Daftar sekarang!
             </a>
           </li>
         </ul>

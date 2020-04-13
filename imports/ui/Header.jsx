@@ -47,13 +47,13 @@ class Header extends React.Component {
             </MDBNavbar>
           </Router>
 
-          <MDBView src="https://www.caridestinasi.com/wp-content/uploads/2015/05/34.-pasar-kemboja-pendang-kedah.jpg">
+          <MDBView src="https://i.ytimg.com/vi/piuYE8Zv-6A/maxresdefault.jpg">
             <MDBMask overlay="black-light" className="flex-center flex-column text-white text-center">
               <h2>e-Changlun</h2>
-              <h5>A platform business services locally in Changlun.</h5>
+              <h5>Satu perkhidmatan perniagaan platform tempatan di Changlun.</h5>
               <br />
-              <p>Easy. Compatible. Convenient.  </p>
-              <b>All in one.</b>
+              <p>Mudah. Serasi. Cepat  </p>
+              <b>Semua dalam satu</b>
             </MDBMask>
           </MDBView>
         </header>

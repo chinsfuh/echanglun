@@ -10,7 +10,7 @@ import CarServices from './CarServices.jsx';
 import SearchPage from './SearchPage.jsx';
 import ContactUs from './ContactUs.jsx';
 import CarService from './CarServices.jsx';
-
+import ShoesService from './ShoesServices.jsx';
 
 
 
@@ -24,9 +24,11 @@ const App = () => (
     <Header />
     <Services /> 
     <CarService />
+    <ShoesService />
     <SearchPage />
     <ContactUs />
     <Footer />
+
   </div>
 );
 export default App;

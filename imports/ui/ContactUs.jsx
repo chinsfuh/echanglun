@@ -8,7 +8,7 @@ const ContactUs = () => {
         Contact us
       </h2>
       <p className="text-center w-responsive mx-auto pb-5">
-        Do not hesiate to contact us for enquiry.
+        Jangan ragu-ragu untuk menghubungi kami.
       </p>
       <MDBRow>
         <MDBCol md="9" className="md-0 mb-5">

@@ -1,21 +1,21 @@
 import React from "react";
 import {  MDBRow, MDBCol, MDBCardBody, MDBIcon, MDBBtn, MDBView, MDBMask } from "mdbreact";
 
-const CarServices = () => {
+const ShoesServices = () => {
   return (
     <section className="text-center my-5">
         <h2 className="h1-responsive font-weight-bold my-5">
-         Kereta Servis
+         Kasut Servis
         </h2>
         <p className="grey-text w-responsive mx-auto mb-5">
-          Kereta servis seperti membaiki, alter, dan lain-lain lagi 
+          Kasut servis seperti menukang, membaiki, melekat, dan lain-lain lagi.
         </p>
 
         <MDBRow className="d-flex justify-content-center">
-          <MDBCol md="6" xl="5" className="mb-4">
+          <MDBCol md="4" xl="3" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
               <img
-                src="https://scontent.fkul13-1.fna.fbcdn.net/v/t1.0-9/47688259_2222505581330626_466111965748527104_n.jpg?_nc_cat=105&_nc_sid=7aed08&_nc_ohc=9FegBkJT0x0AX8ekWoF&_nc_ht=scontent.fkul13-1.fna&oh=2e3bc8a76392b9970d28b71a778650f8&oe=5EB7E9CA"
+                src="https://lh5.googleusercontent.com/p/AF1QipMWP7RX5-CqzI2e057fL79iR6zxyTxaHlgUdDJt=w408-h544-k-no" 
                 alt=""
                 className="img-fluid"
               />
@@ -30,10 +30,11 @@ const CarServices = () => {
                   Pusat Service Tayar Pusat Tayar & Bateri Pendang
                 </h5> */}
               </a>
-              <h4 className="font-weight-bold mb-3">Pusat Service Tayar Pusat Tayar & Bateri Pendang</h4>
+              <h4 className="font-weight-bold mb-3">NSH Kasut Servis</h4>
               <p>
-                Lokasi: NO.113, PEKAN BARU PENDANG, Jalan Sukamari, Pendang, 06700 Pendang, Kedah</p>
-                <p>Operasi: 8:30am-7pm Setiap hari</p>
+                Lokasi: North-South Expy, Kampung Paya Nongmi, 06010 Bukit Kayu Hitam, Kedah</p>
+                <p>Operasi: 10am–6pm</p>    
+                <p>Jumaat	Tutup</p>
                 <p>No. Telefon: 04-759 9654
 
               </p>
@@ -42,7 +43,7 @@ const CarServices = () => {
               </MDBBtn>
             </MDBCardBody>
           </MDBCol>
-          <MDBCol md="6" xl="5" className="mb-4">
+          {/* <MDBCol md="6" xl="5" className="mb-4">
             <MDBView className="overlay rounded z-depth-2" waves>
               <img
                 src="https://scontent.fkul13-1.fna.fbcdn.net/v/t1.0-9/19396714_1565621050146084_7770110782689152776_n.jpg?_nc_cat=110&_nc_sid=dd9801&_nc_ohc=7C2c69PLpiAAX_exsYn&_nc_ht=scontent.fkul13-1.fna&oh=eb882a951f6ccbee0d39eee414d0ff15&oe=5EB9A694"
@@ -55,12 +56,12 @@ const CarServices = () => {
             </MDBView>
             <MDBCardBody className="pb-0">
               <a href="#!" className="blue-text">
-                {/* <h5 className="font-weight-bold mt-2 mb-3">
+                <h5 className="font-weight-bold mt-2 mb-3">
                   <MDBIcon icon="eye" className="pr-2" />
                   Kien Auto Repair
-                </h5> */}
+                </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Kien Auto Repair</h4>
+              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
                 Lokasi: Kien Auto Repair, Changlun, 06010 Changlun, Kedah</p>
                 <p>Operasi: 10am-5pm Setiap hari , Jumaat & Sabtu tutup</p>
@@ -84,12 +85,12 @@ const CarServices = () => {
             </MDBView>
             <MDBCardBody className="pb-0">
               <a href="#!" className="brown-text">
-                {/* <h5 className="font-weight-bold mt-2 mb-3">
+                <h5 className="font-weight-bold mt-2 mb-3">
                   <MDBIcon icon="camera" className="pr-2" />
                   Laxmi mechanic Sdn. Bhd
-                </h5> */}
+                </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Laxmi mechanic Sdn. Bhd</h4>
+              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
                 Lokasi: Laxmi mechanic Sdn. Bhd, Changlun, 06010 Changlun, Kedah</p>
                 <p>Operasi: 9am-7pm Setiap hari , Jumaat tutup</p>
@@ -97,7 +98,7 @@ const CarServices = () => {
                 <p>No. Telefon: 04-924 2152
               </p>
               <MDBBtn color="success" rounded>
-                View more
+              <a href="www.google.com">View more</a>
               </MDBBtn>
             </MDBCardBody>
           </MDBCol>
@@ -114,12 +115,12 @@ const CarServices = () => {
             </MDBView>
             <MDBCardBody className="pb-0">
               <a href="#!" className="cyan-text">
-                {/* <h5 className="font-weight-bold mt-2 mb-3">
+                <h5 className="font-weight-bold mt-2 mb-3">
                   <MDBIcon icon="phone" className="pr-2" />
                   Workshop, Sawa Auto
-                </h5> */}
+                </h5>
               </a>
-              <h4 className="font-weight-bold mb-3">Workshop, Sawa Auto</h4>
+              <h4 className="font-weight-bold mb-3">Title of the news</h4>
               <p>
                 Lokasi: Kampung Tok Kassim, 06010 Bukit Kayu Hitam, Kedah</p>
                 <p>Operasi: 9:30am–6pm Setiap hari</p>
@@ -127,12 +128,12 @@ const CarServices = () => {
               </p>
               <MDBBtn color="success" rounded>
                 View more
-              </MDBBtn>
-            </MDBCardBody>
-          </MDBCol>
+              </MDBBtn> */}
+            {/* </MDBCardBody>
+          </MDBCol> */}
         </MDBRow>
       </section>
   );
 }
 
-export default CarServices;
+export default ShoesServices;
