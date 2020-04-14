@@ -1,8 +1,8 @@
 import { Meteor } from 'meteor/meteor';
-import Businesses from '/imports/api/businesses';
+import MerchantService from '/imports/api/MerchantService';
 
 Meteor.startup(() => {
-  if (Businesses.find().count() === 0) {
+  if (MerchantService.find().count() === 0) {
     console.log("Nothing")
   }
   else

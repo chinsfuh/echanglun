@@ -19,16 +19,17 @@ const App = () => (
   <div>
     {/* <BasicExample /> */}
     {/* <Listing Firstname="Syafiq" Lastname="Pozi" Age="29"/> */}
-    <h1>Welcome to Meteor!</h1>
+    {/* <h1>Welcome to Meteor!</h1> */}
     {/* <Hello /> */}
-    <Info />
-    {/* <Header />
+    
+    <Header />
     <Services /> 
     <CarService />
     <ShoesService />
     <SearchPage />
+    {/* <Info /> */}
     <ContactUs />
-    <Footer /> */}
+    <Footer />
 
   </div>
 );
