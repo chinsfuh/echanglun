@@ -1,5 +1,10 @@
 import { Meteor } from 'meteor/meteor';
+import Businesses from '/imports/api/businesses';
 
 Meteor.startup(() => {
-  // code to run on server at startup
+  if (Businesses.find().count() === 0) {
+    console.log("Nothing")
+  }
+  else
+    console.log("Something")
 });

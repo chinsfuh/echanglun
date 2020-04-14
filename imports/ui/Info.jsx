@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
-import Links from '../api/links';
+import Businesses from '../api/businesses';
 
 class Info extends Component {
   render() {
-    const links = this.props.links.map(
-      link => this.makeLink(link)
+    const businesses = this.props.businesses.map(
+      business => this.makeBusiness(business)
     );
 
     return (
       <div>
         <h2>Learn Meteor!</h2>
-        <ul>{ links }</ul>
+        <ul>{ businesses }</ul>
       </div>
     );
   }
 
-  makeLink(link) {
+  
+
+  makeBusiness(business) {
     return (
-      <li key={link._id}>
-        <a href={link.url} target="_blank">{link.title}</a>
+      <li key={business._id}>
+       <h2>{business.name}</h2> {/* <a href={business.url} target="_blank">{business.name}</a> */}
       </li>
     );
   }
@@ -27,6 +29,6 @@ class Info extends Component {
 
 export default InfoContainer = withTracker(() => {
   return {
-    links: Links.find().fetch(),
+    businesses: Businesses.find().fetch(),
   };
 })(Info);

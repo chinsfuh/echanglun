@@ -14,20 +14,21 @@ import ShoesService from './ShoesServices.jsx';
 
 
 
+
 const App = () => (
   <div>
     {/* <BasicExample /> */}
     {/* <Listing Firstname="Syafiq" Lastname="Pozi" Age="29"/> */}
     <h1>Welcome to Meteor!</h1>
     {/* <Hello /> */}
-    {/* <Info /> */}
-    <Header />
+    <Info />
+    {/* <Header />
     <Services /> 
     <CarService />
     <ShoesService />
     <SearchPage />
     <ContactUs />
-    <Footer />
+    <Footer /> */}
 
   </div>
 );
