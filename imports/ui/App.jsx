@@ -11,6 +11,7 @@ import SearchPage from './SearchPage.jsx';
 import ContactUs from './ContactUs.jsx';
 import CarService from './CarServices.jsx';
 import ShoesService from './ShoesServices.jsx';
+import BusinessInfo from './BusinessInfo.jsx';
 
 
 
@@ -24,10 +25,11 @@ const App = () => (
     
     <Header />
     <Services /> 
-    <CarService />
-    <ShoesService />
+    {/* <CarService />
+    <ShoesService /> */}
     <SearchPage />
     {/* <Info /> */}
+    <BusinessInfo />
     <ContactUs />
     <Footer />
 

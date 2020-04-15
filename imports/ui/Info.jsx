@@ -20,6 +20,9 @@ class Info extends Component {
       <li key={s._id}>
        <h2>{s.Address}</h2> {/* <a href={business.url} target="_blank">{business.name}</a> */}
       </li>
+
+
+
     );
   }
 }
