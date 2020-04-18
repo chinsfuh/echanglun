@@ -28,7 +28,7 @@ const App = () => (
     <Services /> 
     {/* <CarService />
     <ShoesService /> */}
-    <SearchPage />
+    {/* <SearchPage /> */}
     <SignupForm />
     {/* <Info /> */}
     <BusinessInfo />

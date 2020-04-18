@@ -73,3 +73,5 @@ const SignupForm = () => {
     </form>
   );
 };
+
+export default SignupForm;
