@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Hello from './Hello.jsx';
 import Info from './Info.jsx';
@@ -12,7 +13,7 @@ import ContactUs from './ContactUs.jsx';
 import CarService from './CarServices.jsx';
 import ShoesService from './ShoesServices.jsx';
 import BusinessInfo from './BusinessInfo.jsx';
-
+import SignupForm from './SignupForm.jsx';
 
 
 
@@ -28,6 +29,7 @@ const App = () => (
     {/* <CarService />
     <ShoesService /> */}
     <SearchPage />
+    <SignupForm />
     {/* <Info /> */}
     <BusinessInfo />
     <ContactUs />

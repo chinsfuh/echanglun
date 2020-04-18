@@ -12,6 +12,7 @@ const Business = props =>  {
     <Card>
       {/* <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" /> */}
       <CardText>Image: {props.service.Image} </CardText>
+      
       <CardBody>
         <CardTitle>ID: {props.service.ID}</CardTitle>
         <CardSubtitle>Service: {props.service.Service}</CardSubtitle>
@@ -23,7 +24,7 @@ const Business = props =>  {
         <CardText>Mobile Phone: {props.service.MobilePhone}</CardText>
         <CardText>Link: {props.service.Link}</CardText>
         <CardText>Operation Hour: {props.service.OperationHour}</CardText>
-<Button>Button</Button>
+        <Button>Read more</Button>
       </CardBody>
     </Card>
   </CardDeck>
