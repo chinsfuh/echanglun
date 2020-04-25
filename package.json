@@ -8,7 +8,10 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
+    "@auth0/auth0-spa-js": "^1.7.0",
     "@babel/runtime": "^7.8.3",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
     "font-awesome": "^4.7.0",
     "formik": "^2.1.4",
     "jquery": "^3.4.1",

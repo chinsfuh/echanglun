@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, CardColumns } from 'reactstrap';
 import {
     Card, Button, CardImg, CardTitle, CardText, CardDeck,
     CardSubtitle, CardBody
@@ -14,6 +14,7 @@ const Business = props =>  {
       <CardText>Image: {props.service.Image} </CardText>
       
       <CardBody>
+        <CardColumns>
         <CardTitle>ID: {props.service.ID}</CardTitle>
         <CardSubtitle>Service: {props.service.Service}</CardSubtitle>
         <CardText>Service Name: {props.service.ServiceName}</CardText>
@@ -25,6 +26,7 @@ const Business = props =>  {
         <CardText>Link: {props.service.Link}</CardText>
         <CardText>Operation Hour: {props.service.OperationHour}</CardText>
         <Button>Read more</Button>
+        </CardColumns>
       </CardBody>
     </Card>
   </CardDeck>
