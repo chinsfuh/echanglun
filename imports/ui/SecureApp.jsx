@@ -1,5 +1,5 @@
 import React from "react";
-import App from "./App";
+import App from "./App.jsx";
 import { Auth0Provider } from "../api/react-auth0-spa";
 import config from "../auth_config.json";
 import history from "../utils/history";
