@@ -11,7 +11,7 @@ const NotAuthenticated = () => {
         {/* <h3> Merchant Form </h3> */}
         {/* <MerchantForm /> */}
         
-        <Header/>
+        {/* <Header/> */}
         <BusinessInfo />
         Please Login
         <NavBarLogin />
