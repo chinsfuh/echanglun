@@ -9,6 +9,8 @@ import NavBarLogin from "./NavBarLogin.jsx";
 import About from "./About";
 import Contact from "./Contact";
 import NavbarRoute from "./NavbarRoute.jsx";
+import Authenticated from "./Authenticated.jsx";
+import NotAuthenticated from "./NotAuthenticated.jsx";
 
 const App = () => {
   const { loading, isAuthenticated } = useAuth0();
