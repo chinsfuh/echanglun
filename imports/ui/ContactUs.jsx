@@ -1,8 +1,18 @@
 import React from "react";
+import ReactDOM from "react-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import {  MDBContainer, MDBRow, MDBCol, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
+
+
 
 const ContactUs = () => {
   return (
+    
+   
     <MDBContainer>
       <h2 className="h1-responsive font-weight-bold text-center my-5">
         Contact us
@@ -69,9 +79,13 @@ const ContactUs = () => {
               <p>contact@example.com</p>
             </li>
           </ul>
+         
         </MDBCol>
       </MDBRow>
+      
     </MDBContainer>
+    
+    
   );
 }
 

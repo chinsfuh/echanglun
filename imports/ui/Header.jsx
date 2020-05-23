@@ -1,6 +1,9 @@
 import React from 'react';
 import { MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavbarToggler, MDBCollapse, MDBNavItem, MDBNavLink, MDBContainer, MDBMask, MDBView } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+import ContactUs from "./ContactUs";
 
 class Header extends React.Component {
   constructor(props) {
@@ -22,7 +25,7 @@ class Header extends React.Component {
     return (
       <div>
         <header>
-          <Router>
+          <BrowserRouter>
             <MDBNavbar color="indigo" dark expand="md" fixed="top">
               <MDBNavbarBrand href="/">
                 {/*strong>Navbar</strong>*/}
@@ -34,18 +37,25 @@ class Header extends React.Component {
                     <MDBNavLink to="#">Home</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Services</MDBNavLink>
+                    <MDBNavLink to="/services">Services</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">About</MDBNavLink>
+                    <MDBNavLink to="/about" >About</MDBNavLink>
                   </MDBNavItem>
                   <MDBNavItem>
-                    <MDBNavLink to="#">Contact Us</MDBNavLink>
+                    <MDBNavLink to="/contact_us">Contact Us </MDBNavLink>
+                    <div>
+      
+    </div>
                   </MDBNavItem>
                 </MDBNavbarNav>
               </MDBCollapse>
             </MDBNavbar>
-          </Router>
+            <div className="content"></div>  
+
+           
+
+        </BrowserRouter>
 
           <MDBView src="https://i.ytimg.com/vi/piuYE8Zv-6A/maxresdefault.jpg">
             <MDBMask overlay="black-light" className="flex-center flex-column text-white text-center">
@@ -57,6 +67,7 @@ class Header extends React.Component {
             </MDBMask>
           </MDBView>
         </header>
+        
 
      {/*   <main>
           <MDBContainer className="text-center my-5">
