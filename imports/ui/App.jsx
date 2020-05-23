@@ -26,7 +26,6 @@ const App = () => {
       
     </div>
   );
-<<<<<<< HEAD
 //   return(
 
 
@@ -50,9 +49,7 @@ const App = () => {
 // );
  }
 
-=======
-}
->>>>>>> 481524353563eb2abf30cde7fa3f3b68385e2580
+
 export default App;
 
       // <div> 
