@@ -4,6 +4,7 @@ import MerchantForm from "./MerchantForm";
 import NavBarLogin from "./NavBarLogin";
 import Header from "./Header";
 import BusinessInfo from "./BusinessInfo";
+import Business from "./Business";
 
 const NotAuthenticated = () => {
     return (
@@ -13,6 +14,7 @@ const NotAuthenticated = () => {
         
         {/* <Header/> */}
         <BusinessInfo />
+        {/* <Business /> */}
         Please Login
         <NavBarLogin />
       </div>

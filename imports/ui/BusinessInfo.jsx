@@ -1,39 +1,46 @@
 import React, { Component } from 'react';
 import { withTracker } from 'meteor/react-meteor-data';
-import MS from '../api/MerchantService';
+import Businesses from '../api/businesses';
 import Business from './Business.jsx';
 
 
 class BusinessInfo extends Component {
 
-    render() { 
-        const ms = this.props.ms.map(
-            s => this.makeBusiness(s)
-        );
+  render() {
+    const businesses = this.props.businesses.map(
+      business => this.makeBusiness(business)
+    );
 
-        return (
-         <div>
-             <ul>{ ms }</ul>
-        </div>
-         );
-    };
-
-
-    makeBusiness(s) {
-        return ( 
-            <li key={s._id}>
-                {/* <h1>ID:{s.ID}</h1> */}
-            <Business service={s} />
-        </li>
+    return (
+      <div>
+        <h1>Welcome to eChanglun Services</h1>
+        <ul>{businesses}</ul>
+      </div>
+    );
+  };
 
 
+  makeBusiness(business) {
+    return (
+      <li key={props.business._id}>
+        <h1>ID:{props.business.ID} Service:{business.Service}</h1>
+                ID: {business.ID}
+        {/* ID: {props.s.ID}  | Service: {props.s.Service} | Service Name: {props.service.ServiceName} |       
+        Address: {props.s.Address} | City: {props.service.City} | ZIP Postal: {props.service.ZIPPostal} | 
+        Business Phone: {props.service.BusinessPhone} 
+        | Mobile Phone: {props.service.MobilePhone} | 
+        Image: {props.service.Image} 
+        | Link: {props.service.Link} | Operation Hour: {props.service.OperationHour} */}
+
+        {/* <Business service={s} /> */}
+      </li>
     );
   }
 }
 
-export default InfoContainer = withTracker(() => {
+export default BusinessContainer = withTracker(() => {
   return {
-    ms: MS.find().fetch(),
+    businesses: Businesses.find().fetch(),
   };
 })(BusinessInfo);
 

@@ -1,36 +1,36 @@
-// import React from 'react';
-// import { Container, Row, Col, CardColumns } from 'reactstrap';
-// import {
-//     Card, Button, CardImg, CardTitle, CardText, CardDeck,
-//     CardSubtitle, CardBody
-//   } from 'reactstrap';
+ import { Mongo } from 'meteor/mongo';
+//  import React, { Component } from "react";
+ import React from 'react';
 
-// const Business = props =>  {
-//     return (
+ const Business = props =>  (
+       
 
-//     <CardDeck>
-//     <Card>
-//       {/* <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" /> */}
-//       <CardText>Image: {props.service.Image} </CardText>
+    <li key={s._id}>
+                <h1>Service:{s.Service}</h1>
+
+    <h1>ID:{s.ID}</h1>
+
+
+    <h1>Service:{s.Service}</h1>
+    </li>
+
+/* //     <div> 
+//        <h1> 
+       
       
-//       <CardBody>
-//         <CardColumns>
-//         <CardTitle>ID: {props.service.ID}</CardTitle>
-//         <CardSubtitle>Service: {props.service.Service}</CardSubtitle>
-//         <CardText>Service Name: {props.service.ServiceName}</CardText>
-//         <CardText>Address: {props.service.Address}</CardText>
-//         <CardText>City: {props.service.City}</CardText>
-//         <CardText>ZIP Postal: {props.service.ZIPPostal}</CardText>
-//         <CardText>{/* Business Phone: {props.service.BusinessPhone}  */}</CardText>
-//         <CardText>Mobile Phone: {props.service.MobilePhone}</CardText>
-//         <CardText>Link: {props.service.Link}</CardText>
-//         <CardText>Operation Hour: {props.service.OperationHour}</CardText>
-//         <Button>Read more</Button>
-//         </CardColumns>
-//       </CardBody>
-//     </Card>
-//   </CardDeck>
-// );
-// };
+//         ID: {props.service.ID}  | Service: {props.service.Service} | Service Name: {props.service.ServiceName} |       
+//         Address: {props.service.Address} | City: {props.service.City} | ZIP Postal: {props.service.ZIPPostal} | 
+//         Business Phone: {props.service.BusinessPhone} 
+//         | Mobile Phone: {props.service.MobilePhone} | 
+//         Image: {props.service.Image} 
+//         | Link: {props.service.Link} | Operation Hour: {props.service.OperationHour}
 
-// export default Business;
+//       </h1>
+
+//     </div> */
+
+
+ )
+
+ export default Business;
+

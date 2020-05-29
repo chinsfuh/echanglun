@@ -28,33 +28,9 @@ const App = () => {
       
     </div>
   );
-//   return(
-
-
-//   <div>
-//     {/* <BasicExample /> */}
-//     {/* <Listing Firstname="Syafiq" Lastname="Pozi" Age="29"/> */}
-//     {/* <h1>Welcome to Meteor!</h1> */}
-//     {/* <Hello /> */}
-//     <Header />
-//     <Services /> 
-//     {/* <CarService />
-//     <ShoesService /> */}
-//     {/* <SearchPage /> */}
-//     <SignupForm />
-//     {/* <Info /> */}
-//     <BusinessInfo />
-//     <ContactUs />
-//     <Footer />
-
-//   </div>
-// );
  }
 
 
 export default App;
 
-      // <div> 
-      //     <NavBarLogin />
-      //     <h2>Please Login</h2>
-      //   </div>
+  
