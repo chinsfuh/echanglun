@@ -13,8 +13,19 @@ class BusinessInfo extends Component {
 
     return (
       <div>
-        <h1>Welcome to eChanglun Services</h1>
+        <h3></h3>
         <ul>{businesses}</ul>
+        <ul>Merchant Service Data
+        <li>ID: "1"</li>
+        <li>Service:"Shoes Repair"</li>
+<li>Service Name:"SNH Shoes Repair"</li>
+<li>Address:"North-South Expy, Kampung Paya Nongmi"</li>
+<li>City:"Changlun"</li>
+<li>ZIPPostal:"6010"</li>
+<li>BusinessPhone:</li>
+<li>MobilePhone:"019-491 7404"</li>
+<li>Operation Hour:"10am-6pm, Friday Off"</li>
+        </ul>
       </div>
     );
   };
