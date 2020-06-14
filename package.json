@@ -14,7 +14,7 @@
     "@emotion/styled": "^10.0.27",
     "font-awesome": "^4.7.0",
     "formik": "^2.1.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "mdbreact": "^4.25.5",
     "meteor-node-stubs": "^1.0.0",
     "react": "^16.13.1",
